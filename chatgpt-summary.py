@@ -1,3 +1,5 @@
+import openai
+
 openai.api_key = "OPENAI_TOKEN"
 
 prompt="""
