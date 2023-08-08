@@ -4,7 +4,6 @@ openai.api_key = "sk-buraya opeanai key eklenecek"
 
 instruction = "What Socrates was known for?"
 
-# Create a request to the ChatCompletion endpoint
 response = openai.ChatCompletion.create(
   model="gpt-3.5-turbo",
   messages=[
