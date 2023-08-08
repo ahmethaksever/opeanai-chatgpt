@@ -2,7 +2,7 @@ import openai
 
 openai.api_key = "sk-buraya opeanai key eklenecek"
 
-instruction = "What What Socrates was known for?"
+instruction = "What Socrates was known for?"
 
 # Create a request to the ChatCompletion endpoint
 response = openai.ChatCompletion.create(
